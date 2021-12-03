@@ -38,12 +38,10 @@ namespace _2021.tasks
 
             for (int i = 0; i < dives.Length - 2; i++)
             {
-
                 if (prev < dives[i] + dives[i + 1] + dives[i + 2])
                     increments++;
 
                 prev = dives[i] + dives[i + 1] + dives[i + 2];
-
             }
 
             return increments;
