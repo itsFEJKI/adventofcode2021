@@ -7,9 +7,14 @@ namespace _2021
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Day 1 - AoC 2021:");
+            Console.WriteLine("\n\n\nDay 1 - AoC 2021:");
             Console.WriteLine("-----------------");
-            _ = new Day1();
+            new Day1();
+
+            Console.WriteLine("\n\n\nDay 2 - AoC 2021:");
+            Console.WriteLine("-----------------");
+            Console.WriteLine("Coming Soon");
+           // Is coming _ = new Day2();
         }
     }
 }
