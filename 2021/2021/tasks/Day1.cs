@@ -40,9 +40,7 @@ namespace _2021.tasks
             {
 
                 if (prev < dives[i] + dives[i + 1] + dives[i + 2])
-                {
                     increments++;
-                }
 
                 prev = dives[i] + dives[i + 1] + dives[i + 2];
 
